@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]

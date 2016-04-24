@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+** Copyright 2013 two forty four a.m. LLC <http://www.twofortyfouram.com>
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at <http://www.apache.org/licenses/LICENSE-2.0>
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+-->
+<resources>
+
+    <!-- App name -->
+    <string name="app_name">Lifx Tasker</string>
+
+    <!-- Name of the plug-in that appears in Locale -->
+    <string name="plugin_name">Lifx</string>
+
+    <!-- Apikey edittext -->
+    <string name="info_api_token">Enter lifx api token:</string>
+    <string name="api_token_hint">"Your lifx api token"</string>
+    <string name="get_token">Get web Token</string>
+
+    <string name="info_action">Action to perform:</string>
+    <string name="state_hint">state</string>
+    <string name="toggle_hint">toggle</string>
+
+    <!-- Power radiobuttons -->
+    <string name="info_power">State to set lamps:</string>
+    <string name="on_text">on</string>
+    <string name="off_text">off</string>
+    <string name="unchanged_text">unchanged</string>
+
+    <!-- Color edittext -->
+    <string name="info_color">The color to set the light to (Empty = current color):</string>
+    <string name="color_hint">"E.g \"white\" or \"#RRGGBB\""</string>
+    <string name="color_format">View format</string>
+
+    <!-- Duration edittext -->
+    <string name="info_duration">How long in seconds you want the power action to take (Default: 1.0):</string>
+    <string name="duration_hint">"1 – 3155760000"</string>
+
+    <!-- Brightness edittext -->
+    <string name="brightness_hint">0.0 – 1.0</string>
+    <string name="info_brightness">The brightness level from 0.0 to 1.0. Overrides any brightness set in color (if any). (Empty = unchanged) </string>
+
+    <string name="test_configuration">Debug &amp; Test Configuration</string>
+    <string name="show_debug_notifications">Always show debug notifications</string>
+
+
+</resources>

@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.rawa.tasker.lifxplugin"
+        minSdkVersion 14
+        targetSdkVersion 23
+
+        testApplicationId "com.rawa.tasker.lifxplugin.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':localeapi')
+    compile 'com.android.support:support-v4:23.3.0'
+}

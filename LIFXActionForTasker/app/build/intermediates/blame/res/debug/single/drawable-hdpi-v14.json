@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/res/merged/debug/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_dontsave.png",
+        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/LIFXActionForTasker/localeapi/unspecified/res/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_dontsave.png"
+    },
+    {
+        "merged": "/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/build/intermediates/res/merged/debug/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_save.png",
+        "source": "/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/build/intermediates/exploded-aar/locale-toast_setting_plugin/localeapi/unspecified/res/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_save.png"
+    },
+    {
+        "merged": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/res/merged/debug/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_save.png",
+        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/LIFXActionForTasker/localeapi/unspecified/res/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_save.png"
+    },
+    {
+        "merged": "/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/build/intermediates/res/merged/debug/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_dontsave.png",
+        "source": "/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/build/intermediates/exploded-aar/locale-toast_setting_plugin/localeapi/unspecified/res/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_dontsave.png"
+    },
+    {
+        "merged": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/res/merged/debug/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_help.png",
+        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/LIFXActionForTasker/localeapi/unspecified/res/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_help.png"
+    },
+    {
+        "merged": "/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/build/intermediates/res/merged/debug/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_help.png",
+        "source": "/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/build/intermediates/exploded-aar/locale-toast_setting_plugin/localeapi/unspecified/res/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_help.png"
+    }
+]

@@ -4,34 +4,29 @@
     api-level="24"
     density="560dpi"
     format="7"
-    timestamp="24191734043764" >
+    timestamp="36613461805892" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="652" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="515" />
     <task
         name="verifier"
-        duration="0" />
+        duration="23" />
 
-    <build timestamp="23452284698381" >
+    <artifact
+        location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="36613461805892" >
         <artifact
-            location="/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/build/outputs/apk/app-debug.apk"
+            location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="24077171039613" >
-        <artifact
-            location="/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/home/rawa/Code/AndroidStudioProjects/locale-toast_setting_plugin/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="24191734043764" />
 
 </instant-run>

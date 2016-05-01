@@ -11,6 +11,10 @@ public class Color implements IParameter{
         this.color = color;
     }
 
+    public String toString(){
+        return String.format("%s=%s", PARAM_KEY, String.valueOf(getStringValue()));
+    }
+
     @Override
     public String getKey() {
         return PARAM_KEY;

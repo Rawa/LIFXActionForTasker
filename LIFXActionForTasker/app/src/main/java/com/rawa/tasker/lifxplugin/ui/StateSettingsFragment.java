@@ -152,7 +152,7 @@ public class StateSettingsFragment extends AbstractSettingsFragment {
     }
 
     private Color getColor() {
-        String colorString = ET_brightness.getText().toString();
+        String colorString = ET_color.getText().toString();
         if(colorString.isEmpty())
             return null;
 

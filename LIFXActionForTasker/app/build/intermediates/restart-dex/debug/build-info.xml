@@ -4,29 +4,57 @@
     api-level="24"
     density="560dpi"
     format="7"
-    timestamp="36613461805892" >
+    timestamp="29255646681209" >
 
     <task
         name="javac"
-        duration="652" />
+        duration="82" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="515" />
+        duration="16" />
     <task
         name="verifier"
-        duration="23" />
+        duration="1" />
 
     <artifact
-        location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
 
-    <build timestamp="36613461805892" >
+    <build timestamp="24541918740450" >
         <artifact
             location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="25201827796889" >
+        <artifact
+            location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="26031175024888" >
+        <artifact
+            location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="26164999858737" >
+        <artifact
+            location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="28743462366163" >
+        <artifact
+            location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="29255646681209" >
+        <artifact
+            location="/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

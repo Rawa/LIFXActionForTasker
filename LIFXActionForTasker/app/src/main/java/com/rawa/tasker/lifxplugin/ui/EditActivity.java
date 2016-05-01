@@ -39,7 +39,7 @@ import com.rawa.tasker.lifxplugin.lifx.LifxConfig.Token;
 import static com.rawa.tasker.lifxplugin.bundle.PluginBundleManager.generateBundle;
 
 public final class EditActivity extends AbstractPluginActivity {
-    private final String tag = "EditActivity";
+    private final String TAG = "EditActivity";
 
     private EditText ET_apiToken;
     private Button B_getToken;
@@ -88,12 +88,12 @@ public final class EditActivity extends AbstractPluginActivity {
             switch (action) {
                 case State.ACTION:
                     RB_actionState.setChecked(true);
-                    Log.d(tag, "restoreState");
+                    Log.d(TAG, "restoreState");
                     restoreState(localeBundle);
                     break;
                 case Toggle.ACTION:
                     RB_actionToggle.setChecked(true);
-                    Log.d(tag, "restoreToggle");
+                    Log.d(TAG, "restoreToggle");
                     restoreToggle(localeBundle);
                     break;
             }

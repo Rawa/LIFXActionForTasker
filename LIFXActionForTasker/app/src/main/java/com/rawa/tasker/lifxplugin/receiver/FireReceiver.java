@@ -21,6 +21,7 @@ import android.util.Log;
 import java.util.Locale;
 
 import com.rawa.tasker.lifxplugin.Constants;
+import com.rawa.tasker.lifxplugin.LogHelper;
 import com.rawa.tasker.lifxplugin.bundle.BundleScrubber;
 import com.rawa.tasker.lifxplugin.bundle.PluginBundleManager;
 import com.rawa.tasker.lifxplugin.lifx.LifxConfig.APICalls.AAPICall;
@@ -34,8 +35,11 @@ import com.rawa.tasker.lifxplugin.lifx.LifxConfig.Parameters.Duration;
 import com.rawa.tasker.lifxplugin.lifx.LifxConfig.Parameters.Power;
 import com.rawa.tasker.lifxplugin.lifx.LifxConfig.Token;
 
+import static com.rawa.tasker.lifxplugin.LogHelper.LogDebug;
+
 public final class FireReceiver extends BroadcastReceiver {
-    private final static String tag = "NotificationHelper";
+    private static final String TAG = "NotificationHelper";
+    private static final boolean DEBUGGING = true;
 
     @Override
     public void onReceive(final Context context, final Intent intent)
@@ -70,14 +74,34 @@ public final class FireReceiver extends BroadcastReceiver {
             switch (action){
                 case State.ACTION:
                     final String powerString = bundle.getString(PluginBundleManager.BUNDLE_EXTRA_STRING_POWER);
-                    final Double durationDouble = bundle.getDouble(PluginBundleManager.BUNDLE_EXTRA_DOUBLE_DURATION);
-                    final String colorString = bundle.getString(PluginBundleManager.BUNDLE_EXTRA_STRING_COLOR);
-                    final Double brightnessDouble = bundle.getDouble(PluginBundleManager.BUNDLE_EXTRA_DOUBLE_BRIGHTNESS);
-
-                    final Duration duration = new Duration(durationDouble);
-                    final Brightness brightness = new Brightness(brightnessDouble);
+                    LogDebug(DEBUGGING, TAG, "powerString=" + powerString);
                     final Power power = Power.find(powerString);
-                    final Color color = new Color(colorString);
+                    LogDebug(DEBUGGING, TAG, "power=" + powerString);
+
+                    Duration duration = new Duration();
+                    if(bundle.containsKey(PluginBundleManager.BUNDLE_EXTRA_DOUBLE_DURATION)){
+                        final Double durationDouble = bundle.getDouble(PluginBundleManager.BUNDLE_EXTRA_DOUBLE_DURATION);
+                        LogDebug(DEBUGGING, TAG, "durationDouble=" + durationDouble);
+                        duration = new Duration(durationDouble);
+                    }
+                    LogDebug(DEBUGGING, TAG, duration.toString());
+
+                    final String colorString = bundle.getString(PluginBundleManager.BUNDLE_EXTRA_STRING_COLOR);
+                    LogDebug(DEBUGGING, TAG, "colorString=" + colorString);
+                    Color color = null;
+                    if(colorString != null){
+                        color = new Color(colorString);
+                        LogDebug(DEBUGGING, TAG, color.toString());
+                    }
+
+                    Brightness brightness = null;
+                    if(bundle.containsKey(PluginBundleManager.BUNDLE_EXTRA_DOUBLE_BRIGHTNESS)){
+                        final Double brightnessDouble = bundle.getDouble(PluginBundleManager.BUNDLE_EXTRA_DOUBLE_BRIGHTNESS);
+                        LogDebug(DEBUGGING, TAG, "brightnessDouble=" + brightnessDouble);
+                        brightness = new Brightness(brightnessDouble);
+                        LogDebug(DEBUGGING, TAG, brightness.toString());
+                    }
+
 
                     apiCall = new State(duration, brightness, power, color);
                     break;

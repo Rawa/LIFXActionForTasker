@@ -19,6 +19,7 @@ import android.util.Log;
 
 import com.rawa.tasker.lifxplugin.BuildConfig;
 import com.rawa.tasker.lifxplugin.Constants;
+import com.rawa.tasker.lifxplugin.LogHelper;
 import com.rawa.tasker.lifxplugin.lifx.LifxConfig.APICalls.AAPICall;
 import com.rawa.tasker.lifxplugin.lifx.LifxConfig.APICalls.State;
 import com.rawa.tasker.lifxplugin.lifx.LifxConfig.APICalls.Toggle;
@@ -27,8 +28,9 @@ import com.rawa.tasker.lifxplugin.lifx.LifxConfig.LifxConfig;
 /**
  * Class for managing the {@link com.twofortyfouram.locale.Intent#EXTRA_BUNDLE} for this plug-in.
  */
-public final class PluginBundleManager
-{
+public final class PluginBundleManager {
+    private static final String TAG = "PluginBundleManager";
+    private static final boolean DEBUGGING = true;
     /**
      * Type: {@code String}.
      * <p>
@@ -145,6 +147,7 @@ public final class PluginBundleManager
                     result.putDouble(BUNDLE_EXTRA_DOUBLE_BRIGHTNESS, stateCall.getBrightness().getValue());
                 }
                 if(stateCall.getColor() != null) {
+                    LogHelper.LogDebug(DEBUGGING, TAG, "Color=" + stateCall.getColor());
                     result.putString(BUNDLE_EXTRA_STRING_COLOR, stateCall.getColor().getStringValue());
                 }
 

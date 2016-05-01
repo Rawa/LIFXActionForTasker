@@ -26,17 +26,18 @@ public abstract class AAPICall {
         boolean first = true;
         StringBuilder stringBuilder = new StringBuilder();
 
-        for(Entry<String, String> e : getParamMap().entrySet()){
+        for(Entry<String, String> param : getParamMap().entrySet()){
             if(!first){
                 stringBuilder.append(", ");
             }
-            if(e != null){
-                stringBuilder.append(e.getKey());
+
+            if(param != null){
+                stringBuilder.append(param.getKey());
                 stringBuilder.append(":");
-                stringBuilder.append(e.getValue());
+                stringBuilder.append(param.getValue());
+                first = false;
             }
 
-            first = false;
         }
 
         return stringBuilder.toString();

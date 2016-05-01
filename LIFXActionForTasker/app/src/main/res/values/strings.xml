@@ -49,6 +49,7 @@
 
     <string name="test_configuration">Debug &amp; Test Configuration</string>
     <string name="show_debug_notifications">Always show debug notifications</string>
+    <string name="brightness_illegalarg"></string>
 
 
 </resources>

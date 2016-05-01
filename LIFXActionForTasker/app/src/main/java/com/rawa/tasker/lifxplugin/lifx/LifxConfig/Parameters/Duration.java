@@ -29,7 +29,7 @@ public class Duration implements IParameter {
     }
 
     public String toString(){
-        return String.valueOf(getValue());
+        return String.format("%s=%s", PARAM_KEY, String.valueOf(getStringValue()));
     }
 
     @Override

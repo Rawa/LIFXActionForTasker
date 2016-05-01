@@ -6,6 +6,7 @@
     <string name="api_token_hint">"Your lifx api token"</string>
     <string name="app_name">Lifx Tasker</string>
     <string name="brightness_hint">0.0 – 1.0</string>
+    <string name="brightness_illegalarg"/>
     <string name="color_format">View format</string>
     <string name="color_hint">"E.g \"white\" or \"#RRGGBB\""</string>
     <string name="duration_hint">"1 – 3155760000"</string>

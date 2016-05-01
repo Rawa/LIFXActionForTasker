@@ -1,5 +1,7 @@
 package com.rawa.tasker.lifxplugin.lifx.LifxConfig.Parameters;
 
+import android.content.res.Resources;
+
 /**
  * Created by rawa on 2016-04-22.
  */
@@ -29,7 +31,7 @@ public class Brightness implements IParameter {
     }
 
     public String toString(){
-        return String.valueOf(getValue());
+        return String.format("%s=%s", PARAM_KEY, String.valueOf(getStringValue()));
     }
 
     @Override

@@ -45,7 +45,7 @@ public class LifxCloudController {
     }
 
     private class APICaller extends AsyncTask<Void, Void, String> {
-        private final int TIMEOUT_MS = 5000;
+        private final int TIMEOUT_MS = 30000;
 
         private final AAPICall apiCall;
         private final Token token;
@@ -68,6 +68,7 @@ public class LifxCloudController {
                 LogDebug(DEBUGGING, TAG, "apiCall=" + apiCall.toString());
 
                 url = new URL("https://api.lifx.com/v1/lights/all/" + this.apiCall.getAction());
+                
                 LogDebug(DEBUGGING, TAG, "URL=" + url.toString());
 
                 LogDebug(DEBUGGING, TAG, "Opening connection");
@@ -89,6 +90,7 @@ public class LifxCloudController {
                 String message = getDataString(this.apiCall.getParamMap());
                 writer.write(message);
                 writer.flush();
+                writer.close();
 
                 LogDebug(DEBUGGING, TAG, "Message=" + message);
 
@@ -101,6 +103,7 @@ public class LifxCloudController {
             } catch (Exception e) {
                 NotificationHelper.notification(context, "No Internet Connection", "Failed to turn on the lights");
                 e.printStackTrace();
+                response = e.toString();
             } finally {
                 //Close the connection when we are done
                 if(conn != null){

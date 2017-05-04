@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="android-annotation-2.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/8aa2b458acd9be064f5d67d95fa4fbcc1370e8da/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/8aa2b458acd9be064f5d67d95fa4fbcc1370e8da/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

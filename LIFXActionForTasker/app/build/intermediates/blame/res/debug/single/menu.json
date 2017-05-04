@@ -1,6 +1,6 @@
 [
     {
         "merged": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/res/merged/debug/menu/twofortyfouram_locale_help_save_dontsave.xml",
-        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/LIFXActionForTasker/localeapi/unspecified/res/menu/twofortyfouram_locale_help_save_dontsave.xml"
+        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/localeapi/build/intermediates/bundles/default/res/menu/twofortyfouram_locale_help_save_dontsave.xml"
     }
 ]

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:21:1-114:12
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:21:1-112:12
 	package
 		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:23:5-41
 		INJECTED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml
@@ -21,8 +21,12 @@ ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionF
 		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:24:5-43
 uses-sdk
 ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:29:5-31:41
-MERGED from [LIFXActionForTasker:localeapi:unspecified] /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/LIFXActionForTasker/localeapi/unspecified/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:23.3.0] /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.twofortyfouram:android-plugin-client-sdk-for-locale:4.0.2] /home/rawa/.android/build-cache/bbfc4553e17f04994986f9e1820236df969825f8/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.twofortyfouram:android-spackle:2.0.3] /home/rawa/.android/build-cache/1eb658793f3b920dfa26c9f318ad575c77a40deb/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.twofortyfouram:android-assertion:1.2.0] /home/rawa/.android/build-cache/1eb192b555d681663688ffb8c193386834e3b9ad/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.twofortyfouram:android-annotation:2.0.1] /home/rawa/.android/build-cache/8aa2b458acd9be064f5d67d95fa4fbcc1370e8da/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.twofortyfouram:android-plugin-api-for-locale:1.0.2] /home/rawa/.android/build-cache/43ae9e03ddd178906a091129c2371a2125463228/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:23.3.0] /home/rawa/.android/build-cache/e861ad5d7a6e20232e859605a6c58bb387ee2248/output/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:31:9-38
 		INJECTED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml
@@ -33,7 +37,6 @@ MERGED from [com.android.support:support-v4:23.3.0] /home/rawa/Code/AndroidStudi
 		INJECTED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml
 uses-feature#android.hardware.touchscreen
 ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:34:5-36:36
-MERGED from [LIFXActionForTasker:localeapi:unspecified] /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/LIFXActionForTasker/localeapi/unspecified/AndroidManifest.xml:9:5-11:36
 	android:required
 		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:36:9-33
 	android:name
@@ -55,77 +58,77 @@ ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionF
 	android:name
 		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:46:22-64
 application
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:48:5-112:19
-MERGED from [com.android.support:support-v4:23.3.0] /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:48:5-110:19
+MERGED from [com.twofortyfouram:android-plugin-client-sdk-for-locale:4.0.2] /home/rawa/.android/build-cache/bbfc4553e17f04994986f9e1820236df969825f8/output/AndroidManifest.xml:12:5-20
+MERGED from [com.twofortyfouram:android-spackle:2.0.3] /home/rawa/.android/build-cache/1eb658793f3b920dfa26c9f318ad575c77a40deb/output/AndroidManifest.xml:12:5-20
+MERGED from [com.twofortyfouram:android-assertion:1.2.0] /home/rawa/.android/build-cache/1eb192b555d681663688ffb8c193386834e3b9ad/output/AndroidManifest.xml:26:5-20
+MERGED from [com.twofortyfouram:android-plugin-api-for-locale:1.0.2] /home/rawa/.android/build-cache/43ae9e03ddd178906a091129c2371a2125463228/output/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /home/rawa/.android/build-cache/e861ad5d7a6e20232e859605a6c58bb387ee2248/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:53:9-41
 	android:hardwareAccelerated
 		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:51:9-43
 	android:uiOptions
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:55:9-53
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:54:9-53
 	android:allowBackup
 		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:50:9-35
 	android:icon
 		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:52:9-43
-	android:theme
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:54:9-49
 	android:name
 		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:49:9-68
 activity#com.rawa.tasker.lifxplugin.ui.InfoActivity
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:61:9-70:20
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:60:9-69:20
 	android:exported
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:63:13-36
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:62:13-36
 	tools:ignore
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:64:13-44
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:63:13-44
 	android:name
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:62:13-70
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:61:13-70
 intent-filter#android.intent.action.MAIN+android.intent.category.INFO
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:65:13-69:29
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:64:13-68:29
 action#android.intent.action.MAIN
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:66:17-69
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:65:17-69
 	android:name
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:66:25-66
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:65:25-66
 category#android.intent.category.INFO
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:68:17-73
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:67:17-73
 	android:name
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:68:27-70
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:67:27-70
 activity#com.rawa.tasker.lifxplugin.ui.EditActivity
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:79:9-93:20
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:78:9-91:20
 	android:label
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:83:13-48
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:82:13-48
 	android:exported
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:81:13-36
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:80:13-36
 	android:windowSoftInputMode
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:86:13-55
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:84:13-55
 	tools:ignore
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:87:13-44
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:85:13-44
 	android:uiOptions
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:85:13-57
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:83:13-57
 	android:icon
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:82:13-47
-	android:theme
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:84:13-53
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:81:13-47
 	android:name
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:80:13-70
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:79:13-70
 intent-filter#com.twofortyfouram.locale.intent.action.EDIT_SETTING
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:90:13-92:29
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:88:13-90:29
 action#com.twofortyfouram.locale.intent.action.EDIT_SETTING
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:91:17-95
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:89:17-95
 	android:name
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:91:25-92
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:89:25-92
 receiver#com.rawa.tasker.lifxplugin.receiver.FireReceiver
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:101:9-111:20
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:99:9-109:20
 	android:process
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:104:13-42
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:102:13-42
 	android:exported
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:103:13-36
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:101:13-36
 	tools:ignore
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:105:13-44
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:103:13-44
 	android:name
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:102:13-76
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:100:13-76
 intent-filter#com.twofortyfouram.locale.intent.action.FIRE_SETTING
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:108:13-110:29
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:106:13-108:29
 action#com.twofortyfouram.locale.intent.action.FIRE_SETTING
-ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:109:17-95
+ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:107:17-95
 	android:name
-		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:109:25-92
+		ADDED from /home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/src/main/AndroidManifest.xml:107:25-92

@@ -1,5 +1,31 @@
 [
     {
+        "outputFile": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mdpi-v4/values-mdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endLine": 3,
+                    "endColumn": 14,
+                    "endOffset": 220
+                },
+                "from": {
+                    "file": "/home/rawa/.android/build-cache/bbfc4553e17f04994986f9e1820236df969825f8/output/res/values-mdpi-v4/values-mdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endLine": 3,
+                        "endColumn": 14,
+                        "endOffset": 220
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/res/merged/debug/values-mdpi-v4/values-mdpi-v4.xml",
         "map": [
             {

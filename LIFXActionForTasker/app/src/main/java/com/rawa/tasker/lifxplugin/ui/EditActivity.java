@@ -17,6 +17,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -35,6 +37,7 @@ import com.rawa.tasker.lifxplugin.lifx.LifxConfig.APICalls.Toggle;
 import com.rawa.tasker.lifxplugin.lifx.LifxConfig.LifxConfig;
 import com.rawa.tasker.lifxplugin.lifx.LifxCloudController;
 import com.rawa.tasker.lifxplugin.lifx.LifxConfig.Token;
+import com.twofortyfouram.locale.sdk.client.ui.activity.AbstractPluginActivity;
 
 import static com.rawa.tasker.lifxplugin.bundle.PluginBundleManager.generateBundle;
 
@@ -60,7 +63,7 @@ public final class EditActivity extends AbstractPluginActivity {
 
         BundleScrubber.scrub(getIntent());
 
-        final Bundle localeBundle = getIntent().getBundleExtra(com.twofortyfouram.locale.Intent.EXTRA_BUNDLE);
+        final Bundle localeBundle = getIntent().getBundleExtra(com.twofortyfouram.locale.api.Intent.EXTRA_BUNDLE);
         BundleScrubber.scrub(localeBundle);
         // Fetch gui parts
         ET_apiToken    = (EditText) findViewById(R.id.api_token);
@@ -185,7 +188,7 @@ public final class EditActivity extends AbstractPluginActivity {
     @Override
     public void finish() {
         Log.d("LIFXPlugin", "FINSHED");
-        if (!isCanceled()) {
+        if (false) {
             Log.d("LIFXPlugin", "NOT CANCELD");
             final String tokenString = ET_apiToken.getText().toString();
             final Token token = new Token(tokenString);
@@ -206,13 +209,13 @@ public final class EditActivity extends AbstractPluginActivity {
             LifxConfig lifxConfig = new LifxConfig(token, callConfig, debug);
 
             final Bundle resultBundle = generateBundle(this, lifxConfig);
-            resultIntent.putExtra(com.twofortyfouram.locale.Intent.EXTRA_BUNDLE, resultBundle);
+            resultIntent.putExtra(com.twofortyfouram.locale.api.Intent.EXTRA_BUNDLE, resultBundle);
 
             /*
              * The blurb is concise status text to be displayed in the host's UI.
              */
             final String blurb = generateBlurb(this, lifxConfig);
-            resultIntent.putExtra(com.twofortyfouram.locale.Intent.EXTRA_STRING_BLURB, blurb);
+            resultIntent.putExtra(com.twofortyfouram.locale.api.Intent.EXTRA_STRING_BLURB, blurb);
 
             setResult(RESULT_OK, resultIntent);
         }
@@ -226,7 +229,7 @@ public final class EditActivity extends AbstractPluginActivity {
         String message = lifxConfig.toString();
         // What is shown as a summery of all settings
         final int maxBlurbLength =
-                context.getResources().getInteger(R.integer.twofortyfouram_locale_maximum_blurb_length);
+                context.getResources().getInteger(R.integer.com_twofortyfouram_locale_sdk_client_maximum_blurb_length);
 
         if (message.length() > maxBlurbLength)
         {
@@ -242,5 +245,27 @@ public final class EditActivity extends AbstractPluginActivity {
 
     public String getSelector() {
         return "all";
+    }
+
+    @Override
+    public boolean isBundleValid(@NonNull Bundle bundle) {
+        return false;
+    }
+
+    @Override
+    public void onPostCreateWithPreviousResult(@NonNull Bundle bundle, @NonNull String s) {
+
+    }
+
+    @Nullable
+    @Override
+    public Bundle getResultBundle() {
+        return null;
+    }
+
+    @NonNull
+    @Override
+    public String getResultBlurb(@NonNull Bundle bundle) {
+        return null;
     }
 }

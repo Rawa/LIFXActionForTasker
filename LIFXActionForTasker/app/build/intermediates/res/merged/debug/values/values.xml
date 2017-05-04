@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
-    <item name="twofortyfouram_locale_menu_dontsave" type="id"/>
-    <item name="twofortyfouram_locale_menu_help" type="id"/>
-    <item name="twofortyfouram_locale_menu_save" type="id"/>
+    <item name="com_twofortyfouram_log_is_debug" ns1:ignore="ResourceName" type="bool">false</item>
     <string name="api_token_hint">"Your lifx api token"</string>
     <string name="app_name">Lifx Tasker</string>
     <string name="brightness_hint">0.0 – 1.0</string>
     <string name="brightness_illegalarg"/>
     <string name="color_format">View format</string>
     <string name="color_hint">"E.g \"white\" or \"#RRGGBB\""</string>
+    <string name="com_twofortyfouram_locale_sdk_client_app_store_deep_link_format" ns1:ignore="UnusedResources" translatable="false">market://details?id=%1$s&amp;referrer=utm_source=%2$s&amp;utm_medium=app&amp;utm_campaign=plugin</string>
+    <string name="com_twofortyfouram_log_tag" ns1:ignore="ResourceName"/>
     <string name="duration_hint">"1 – 3155760000"</string>
     <string name="get_token">Get web Token</string>
     <string name="info_action">Action to perform:</string>
@@ -24,13 +24,5 @@
     <string name="state_hint">state</string>
     <string name="test_configuration">Debug &amp; Test Configuration</string>
     <string name="toggle_hint">toggle</string>
-    <string name="twofortyfouram_locale_breadcrumb_format" ns1:ignore="UnusedResources">%1$s%2$s%3$s</string>
-    <string name="twofortyfouram_locale_breadcrumb_separator" ns1:ignore="UnusedResources">\u0020>\u0020</string>
-    <string name="twofortyfouram_locale_menu_dontsave">Cancel</string>
-    <string name="twofortyfouram_locale_menu_help">Help</string>
-    <string name="twofortyfouram_locale_menu_save">Done</string>
     <string name="unchanged_text">unchanged</string>
-    <style name="Theme.Locale.Dark" parent="android:Theme"/>
-    <style name="Theme.Locale.Dialog" parent="@android:style/Theme.Translucent.NoTitleBar"/>
-    <style name="Theme.Locale.Light" parent="android:Theme.Light"/>
 </resources>

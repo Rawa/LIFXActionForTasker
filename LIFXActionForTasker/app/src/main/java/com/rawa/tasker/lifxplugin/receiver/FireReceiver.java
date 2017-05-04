@@ -48,7 +48,7 @@ public final class FireReceiver extends BroadcastReceiver {
          * Always be strict on input parameters! A malicious third-party app could send a malformed Intent.
          */
 
-        if (!com.twofortyfouram.locale.Intent.ACTION_FIRE_SETTING.equals(intent.getAction()))
+        if (!com.twofortyfouram.locale.api.Intent.ACTION_FIRE_SETTING.equals(intent.getAction()))
         {
             if (Constants.IS_LOGGABLE)
             {
@@ -61,7 +61,7 @@ public final class FireReceiver extends BroadcastReceiver {
 
         BundleScrubber.scrub(intent);
 
-        final Bundle bundle = intent.getBundleExtra(com.twofortyfouram.locale.Intent.EXTRA_BUNDLE);
+        final Bundle bundle = intent.getBundleExtra(com.twofortyfouram.locale.api.Intent.EXTRA_BUNDLE);
         BundleScrubber.scrub(bundle);
         if (PluginBundleManager.isBundleValid(bundle))
         {

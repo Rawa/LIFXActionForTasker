@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LIFXActionForTasker.iml" filepath="$PROJECT_DIR$/LIFXActionForTasker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/localeapi/localeapi.iml" filepath="$PROJECT_DIR$/localeapi/localeapi.iml" />
     </modules>
   </component>
 </project>

@@ -1,14 +1,14 @@
 [
     {
         "merged": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/res/merged/debug/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_save.png",
-        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/LIFXActionForTasker/localeapi/unspecified/res/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_save.png"
+        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/localeapi/build/intermediates/bundles/default/res/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_save.png"
     },
     {
         "merged": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/res/merged/debug/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_help.png",
-        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/LIFXActionForTasker/localeapi/unspecified/res/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_help.png"
+        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/localeapi/build/intermediates/bundles/default/res/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_help.png"
     },
     {
         "merged": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/res/merged/debug/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_dontsave.png",
-        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/app/build/intermediates/exploded-aar/LIFXActionForTasker/localeapi/unspecified/res/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_dontsave.png"
+        "source": "/home/rawa/Code/AndroidStudioProjects/LIFXActionForTasker/LIFXActionForTasker/localeapi/build/intermediates/bundles/default/res/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_dontsave.png"
     }
 ]

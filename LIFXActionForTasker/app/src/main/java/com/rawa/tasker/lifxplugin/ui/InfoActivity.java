@@ -22,7 +22,7 @@ import android.util.Log;
 import java.util.Locale;
 
 import com.rawa.tasker.lifxplugin.Constants;
-import com.twofortyfouram.locale.PackageUtilities;
+//import com.twofortyfouram.locale.PackageUtilities;
 
 /**
  * If the user tries to launch the plug-in via the "Open" button in Google Play, this will redirect the user
@@ -42,7 +42,8 @@ public final class InfoActivity extends Activity {
 
         final PackageManager manager = getPackageManager();
 
-        final String compatiblePackage = PackageUtilities.getCompatiblePackage(manager, null);
+        //final String compatiblePackage = PackageUtilities.getCompatiblePackage(manager, null);
+        final String compatiblePackage = null;
 
         if (null != compatiblePackage) {
             // after this point, assume Locale-compatible package is installed
@@ -73,7 +74,6 @@ public final class InfoActivity extends Activity {
                 Log.e(Constants.LOG_TAG, "Error launching Activity", e); //$NON-NLS-1$
             }
         }
-
         finish();
     }
 }
